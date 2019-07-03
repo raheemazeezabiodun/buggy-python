@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 #!/usr/bin/python3
 
 from snippets import (
@@ -24,5 +25,4 @@ if __name__ == "__main__":
     except (
         AssertionError, SyntaxError, TypeError
     ) as error:
-        print(error, " 😢")
-
+        print("{}, 😢".format(error))
